@@ -1,0 +1,104 @@
+/* 
+Main color: #087f5b
+Gray color: #343a40
+Light gray color: #ced4da
+*/
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+}
+
+.accordion {
+  width: 700px;
+  margin: 100px auto;
+  font-weight: bold;
+  max-width: 90%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.accordion-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 24px;
+  row-gap: 32px;
+
+  padding: 24px;
+  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+.accordion-item:hover {
+  cursor: pointer;
+}
+
+/* ------------------------ */
+/* COMPONENT STYLES */
+/* ------------------------ */
+
+.accordion-item__number {
+  color: #ced4da;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.accordion-item__header {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.icon {
+  justify-self: flex-end;
+  width: 24px;
+  height: 24px;
+  stroke: #087f5b;
+}
+
+.accordion-item__body {
+  grid-column: 2/3;
+  font-weight: normal;
+  font-size: 14px;
+  padding-bottom: 1.2rem;
+  display: none;
+}
+
+.accordion-item__body p {
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.accordion-item__body ul {
+  color: #868e96;
+  list-style-position: inside;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.active {
+  border-top: 4px solid #087f5b;
+}
+
+.active .accordion-item__header,
+.active .accordion-item__number {
+  color: #087f5b;
+}
+
+.active .accordion-item__body {
+  display: block;
+}
