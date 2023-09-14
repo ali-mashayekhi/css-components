@@ -15,11 +15,11 @@ This is a simple carousel component styled only by CSS.
 
 ### Screenshot
 
-![](./images/screenshot.png)
+![](./design/screenshot.png)
 
 ### Links
 
-- Live Site URL: [ali-accordion-component](https://ali-carousel-component.netlify.app)
+- Live Site URL: [Live-Demo](https://ali-css-components.netlify.app/carousel-component/)
 
 ## Author
 

@@ -15,11 +15,11 @@ This is a simple accordion component styled by only CSS.
 
 ### Screenshot
 
-![](./images/screenshot.png)
+![](./design/screenshot.png)
 
 ### Links
 
-- Live Site URL: [ali-accordion-component](https://ali-accordion-component.netlify.app)
+- Live Site URL: [Live-Demo](https://ali-css-components.netlify.app/accordion-component/)
 
 ## Author
 

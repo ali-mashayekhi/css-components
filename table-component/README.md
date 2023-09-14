@@ -1,4 +1,4 @@
-# Accordion Component
+# Table Component
 
 This is a simple table component styled by only CSS. Made by table tag in HTML.
 
