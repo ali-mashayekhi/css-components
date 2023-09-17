@@ -1,6 +1,6 @@
-# Carousel Component
+# Hero Section Component
 
-This is a carousel component styled only by CSS.
+This is a Hero section styled only by CSS.
 
 ## Table of contents
 
@@ -19,7 +19,7 @@ This is a carousel component styled only by CSS.
 
 ### Links
 
-- Live Site URL: [Live-Demo](https://ali-css-components.netlify.app/carousel-component/)
+- Live Site URL: [Live-Demo](https://ali-css-components.netlify.app/hero-section-component/)
 
 ## Author
 

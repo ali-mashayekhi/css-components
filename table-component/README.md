@@ -1,6 +1,6 @@
 # Table Component
 
-This is a simple table component styled by only CSS. Made by table tag in HTML.
+This is a table component styled by only CSS. Made by table tag in HTML.
 
 ## Table of contents
 

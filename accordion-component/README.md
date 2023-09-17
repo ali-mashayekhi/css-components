@@ -1,6 +1,6 @@
 # Accordion Component
 
-This is a simple accordion component styled by only CSS.
+This is a accordion component styled by only CSS.
 
 ## Table of contents
 
