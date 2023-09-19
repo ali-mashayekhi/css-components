@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+}
+
+.background-image {
+  background-image: url(images/hero.jpg);
+  background-size: cover;
+  filter: brightness(40%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -10;
+}
+
+.nav-bar {
+  width: 80%;
+  margin: 50px auto;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.description {
+  color: #fff;
+  width: 530px;
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.description h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.description p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #ced4da;
+  margin-bottom: 36px;
+}
+
+.btn:link,
+.btn:visited {
+  background-color: #fd7e14;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 8px;
+}
+
+.section {
+  margin-top: 110vh;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+}
+
+.section h2 {
+  margin-bottom: 36px;
+}
+
+.section p {
+  line-height: 1.7;
+}
