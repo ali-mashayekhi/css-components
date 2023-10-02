@@ -1,45 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Four card feature section</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Four card feature section</title>
+  </head>
+  <body>
+    <section class="section-feature">
+      <header class="section-feature__header">
+        <h2 class="header-secondary-title">Reliable, efficient delivery</h2>
+        <h1 class="header-main-title main-header">Powered by Technology</h1>
+        <p class="header-description">
+          Our Artificial Intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+        </p>
+      </header>
+      <div class="section-feature__body">
+        <div class="feature-cart supervisor">
+          <h1 class="feature-cart__title main-header">Supervisor</h1>
+          <p class="feature-cart__description">
+            Monitors activity to identify project roadblocks
+          </p>
+          <img
+            src="images/icon-supervisor.svg"
+            alt=""
+            class="feature-cart__image"
+          />
+        </div>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
+        <div class="feature-cart team-builder">
+          <h1 class="feature-cart__title main-header">Team Builder</h1>
+          <p class="feature-cart__description">
+            scans our talent network to create the optimal team for your project
+          </p>
+          <img
+            src="images/icon-team-builder.svg"
+            alt=""
+            class="feature-cart__image"
+          />
+        </div>
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+        <div class="feature-cart karma">
+          <h1 class="feature-cart__title main-header">Karma</h1>
+          <p class="feature-cart__description">
+            Regularly evaluates our talent to ensure quality
+          </p>
+          <img src="images/icon-karma.svg" alt="" class="feature-cart__image" />
+        </div>
 
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+        <div class="feature-cart calculator">
+          <h1 class="feature-cart__title main-header">Calculator</h1>
+          <p class="feature-cart__description">
+            uses data from past projects to provide better delivery estimates
+          </p>
+          <img
+            src="images/icon-calculator.svg"
+            alt=""
+            class="feature-cart__image"
+          />
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://twitter.com/alimashayekhi42">Ali Mashayekhi</a>.
+      </p>
+    </footer>
+  </body>
 </html>
